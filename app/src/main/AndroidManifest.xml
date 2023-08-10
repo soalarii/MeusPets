@@ -13,6 +13,18 @@
         android:theme="@style/Theme.MeusPets"
         tools:targetApi="31">
         <activity
+            android:name=".Sobre_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuPrincipal_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Login_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Splash_Activity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
